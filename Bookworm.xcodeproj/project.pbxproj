@@ -11,6 +11,12 @@
 		D119621A2B80DD0300624DC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11962192B80DD0300624DC8 /* ContentView.swift */; };
 		D119621C2B80DD0500624DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D119621B2B80DD0500624DC8 /* Assets.xcassets */; };
 		D119621F2B80DD0500624DC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D119621E2B80DD0500624DC8 /* Preview Assets.xcassets */; };
+		D11962262B8133A300624DC8 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11962252B8133A300624DC8 /* Book.swift */; };
+		D11962282B81342900624DC8 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11962272B81342900624DC8 /* AddBookView.swift */; };
+		D119622A2B81373600624DC8 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11962292B81373600624DC8 /* RatingView.swift */; };
+		D119622C2B816F5F00624DC8 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D119622B2B816F5F00624DC8 /* EmojiRatingView.swift */; };
+		D119622E2B82751E00624DC8 /* ChartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D119622D2B82751E00624DC8 /* ChartTest.swift */; };
+		D11962302B84DAEC00624DC8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D119622F2B84DAEC00624DC8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		D11962192B80DD0300624DC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D119621B2B80DD0500624DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D119621E2B80DD0500624DC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D11962252B8133A300624DC8 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		D11962272B81342900624DC8 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		D11962292B81373600624DC8 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		D119622B2B816F5F00624DC8 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		D119622D2B82751E00624DC8 /* ChartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartTest.swift; sourceTree = "<group>"; };
+		D119622F2B84DAEC00624DC8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +64,13 @@
 			isa = PBXGroup;
 			children = (
 				D11962172B80DD0300624DC8 /* BookwormApp.swift */,
+				D11962272B81342900624DC8 /* AddBookView.swift */,
 				D11962192B80DD0300624DC8 /* ContentView.swift */,
+				D119622F2B84DAEC00624DC8 /* DetailView.swift */,
+				D119622B2B816F5F00624DC8 /* EmojiRatingView.swift */,
+				D119622D2B82751E00624DC8 /* ChartTest.swift */,
+				D11962292B81373600624DC8 /* RatingView.swift */,
+				D11962252B8133A300624DC8 /* Book.swift */,
 				D119621B2B80DD0500624DC8 /* Assets.xcassets */,
 				D119621D2B80DD0500624DC8 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D119621A2B80DD0300624DC8 /* ContentView.swift in Sources */,
+				D11962302B84DAEC00624DC8 /* DetailView.swift in Sources */,
 				D11962182B80DD0300624DC8 /* BookwormApp.swift in Sources */,
+				D119622E2B82751E00624DC8 /* ChartTest.swift in Sources */,
+				D11962262B8133A300624DC8 /* Book.swift in Sources */,
+				D119622A2B81373600624DC8 /* RatingView.swift in Sources */,
+				D119622C2B816F5F00624DC8 /* EmojiRatingView.swift in Sources */,
+				D11962282B81342900624DC8 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
